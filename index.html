@@ -1,21 +1,44 @@
 <!doctype html>
-<html lang="en"> 
+<html lang="en">
+
 <head>
   <meta charset="utf-8">
-  <title>Client</title>
+  <title>Sound Board</title>
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-  <link rel="stylesheet" media="screen" href="assets/css/style.css" >
+  <link rel="stylesheet" media="screen" href="assets/css/style.css">
 </head>
 
 <body>
   <!--container start-->
   <div class="container">
-    
+    <div class="wrapper">
+      <div class="sound-box">
+        <button class="btn">
+          <audio src="applause.mp3" class="sound"></audio>Applause
+        </button>
+        <button class="btn">
+          <audio src="boo.mp3" class="sound"></audio>Boo
+        </button>
+        <button class="btn">
+          <audio src="gasp.mp3" class="sound"></audio>Gasp
+        </button>
+        <button class="btn">
+          <audio src="tada.mp3" class="sound"></audio>Tada
+        </button>
+        <button class="btn">
+          <audio src="victory.mp3" class="sound"></audio>Victory
+        </button>
+        <button class="btn">
+          <audio src="wrong.mp3" class="sound"></audio>Wrong
+        </button>
+      </div>
+    </div>
   </div>
   <!--container end-->
 
-<script src="assets/js/script.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
+
 </html>
